@@ -1,0 +1,19 @@
+.perent {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-color: #070707;
+}

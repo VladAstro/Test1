@@ -1,0 +1,55 @@
+
+.board{
+  border: 5px solid black;
+  height: 956px;
+  width:956px;
+  display: flex;
+  
+}
+
+.square{
+  border: 5px solid black;
+  height: 110px;
+  width: 110px;
+}
+
+.column1 .square:nth-child(even){
+  background-color:burlywood;
+}
+
+.column2 .square:nth-child(odd){
+  background-color:burlywood;
+}
+
+.column3 .square:nth-child(even){
+  background-color:burlywood;
+}
+
+.column4 .square:nth-child(odd){
+  background-color:burlywood;
+}
+
+.column5 .square:nth-child(even){
+  background-color:burlywood;
+}
+
+.column6 .square:nth-child(odd){
+  background-color:burlywood;
+}
+
+.column7 .square:nth-child(even){
+  background-color:burlywood;
+}
+
+.column8 .square:nth-child(odd){
+  background-color:burlywood;;
+}
+  
+
+
+
+
+
+
+
+
